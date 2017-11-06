@@ -1,0 +1,76 @@
+#font{
+	display: none;
+}
+.main p{
+	margin-top: 40px;
+	font-size: 56px;
+	color: #5A5A5A;
+	text-align: center;
+	clear: both;
+
+}
+.wrapper{
+	margin-left:20%;
+}
+figure{
+	width: 240px;
+	height: 296px;
+	margin-top: 32px;
+	background-color: white;
+}
+.cardImg img{
+	width: 72px;
+	height: 72px;
+	margin-top: 32px;
+	margin-left: 80px;
+	border:1px solid #E4E4E4;
+	border-radius: 50px;
+}
+.contain p{
+	font-size: 26px;
+	text-align: center;
+	color: #333333; /*主色*/
+	margin-top: 32px;
+}
+.contain span{
+	font-size: 14px;
+	color: #5A5A5A; /*副色*/
+	text-align: center;
+	margin-top: 16px;
+	display: block;
+}
+#cxy{
+	width: 96px;
+	height: 32px;
+	border:1px solid #5A5A5A;
+	background-color: #FFFFFF;
+	margin-top: 40px;
+	font-size: 16px;
+	margin-left: 30%;
+	color: #5A5A5A;
+}
+#cxy:hover {
+	color: #333333;
+	border: 2px solid #333333;
+}
+figure:hover {
+	box-shadow: #e4e4e4 0px 16px 24px;
+}
+.popimg{
+	width: 128px;
+	height: 128px;
+	padding-top: 32px;
+	margin: 0 auto;
+}
+.popcontain img{
+	margin: 32px 20px;
+}
+.popImg{
+	width: 128px;
+	height: 128px;
+	padding-top: 32px;
+	margin: 0 auto;
+}
+.contain img{
+	margin: 32px 100px;
+}

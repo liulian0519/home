@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="js/zepoto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" async="async" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/follow.js" ></script>
+		<link rel="stylesheet" type="text/css" href="./css/pc/reset.css" />
+		<link rel="stylesheet" type="text/css" href="./css/pc/follow.css" media="all and (min-width: 750px)"/>
+		<link rel="stylesheet" href="css/mobile/follow.css" media="all and (max-width: 750px)">
+		<title>follow</title>
+	</head>
+	<body>
+		<header class="header" id="header">
+			<!-- #3faae1 -->
+			<nav class="nav" id="nav">
+				<i id="logo"></i>
+				<ul class="navul">
+					这里是导航
+					<!--<li id="team">团队</li>
+					<li id="blog"><a href="http://blog.creatshare.com" target="_blank">博客</a></li>
+					<li id="star" class="homenavon">关注</li>
+					<li id="about">关于</li>-->
+				</ul>
+			</nav>
+			<div id="font">
+				<p class="csp">
+					关注我们
+				</p>
+			</div>
+		</header>
+		<div class="main">
+			<p>微博</p>
+			<div class="wrapper">
+				<div class="item">
+					<figure>
+						<div class="cardImg">
+							<img src="img/follow/creatshare.jpg" />
+						</div>
+						<div class="contain">
+							<p>CreatShare</p>
+							<span>实验室官方微博</span>
+							<button id="cxy" value="查看" onclick="returnCreatshare()">查看</button>
+							
+						</div>
+					</figure>
+					<figure>
+						<div class="cardImg">
+							<img src="img/follow/changxiaoyuan.jpg" />
+						</div>
+						<div class="contain">
+							<p>畅校园</p>
+							<span>畅校园官方微博</span>
+							<button id="cxy" value="查看" onclick="returnchangxiaoyuan()">查看</button>
+						</div>
+					</figure>
+					<figure>
+						<div class="cardImg">
+							<img src="img/follow/xiyoudaohang.jpg" />
+						</div>
+						<div class="contain">
+							<p>西邮导航</p>
+							<span>西邮导航官方微博</span>
+							<button id="cxy" value="查看" onclick="returnxiyoudaohang()">查看</button>
+						</div>
+					</figure>
+				</div>
+			</div>
+			<p id="p">微信公众号</p>
+			<div class="wrapper">
+				<div class="item1">
+					<figure id="push">
+						<div class="cardImg">
+							<img src="img/follow/creatshare.jpg" />
+						</div>
+						<div class="contain">
+							<p>畅校园</p>
+							<span>提供各种校园服务工具</span>
+							<input type="button" id="cxy" value="查看" onclick="show1()" />
+						</div>
+					</figure>
+					<figure id="pop" style="display: none;">
+						<div class="popimg">
+							<img src="img/follow/changxiaoyuan_qr.png" />
+						</div>
+						<div class="contain">
+							<span>畅校园</span>
+							<img src="img/mobile/close.png" class="image" onclick="returnpop()" />			
+						</div>
+					</figure>
+				</div>
+				<div class="item2">
+					<figure id="push1">
+						<div class="cardImg">
+							<img src="img/follow/changxiaoyuan.jpg" />
+						</div>
+						<div class="contain">
+							<p>CreatShare</p>
+							<span>实验室的微信 blog</span>
+							<input type="button" id="cxy" value="查看" onclick="show2()" />
+						</div>
+					</figure>
+						<figure id="pop1" style="display:none;">
+						<div class="popImg">
+							<img src="img/follow/creatshare_qr.jpg" style="width: 128px; height: 128px;" />
+						</div>
+						<div class="contain">
+							<p>creatshare</p>
+							<img src="img/mobile/close.png" class="image" onclick="returnpop1()" />			
+						</div>
+					</figure>
+				</div>
+			</div>
+		</div>
+		
+		<div class="temp">
+			
+		</div>
+		<footer class="footer">
+			<p>&copy; Copyright 2012-2017 CreatShare. All Rights Reserved. </p>
+		</footer>
+	</body>
+
+</html>

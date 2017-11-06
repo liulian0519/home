@@ -1,0 +1,122 @@
+.header {
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin:0 auto;
+	overflow: hidden;
+	background: url(../../img/banner/follow.png) no-repeat;
+	background-position: 0px -100px;
+	height: 480px;
+	width: 100%;
+	box-sizing: border-box;
+	max-width: 1280px;
+}
+#font{
+	display: block;
+}
+.csp {
+	margin-top: 160px;
+	font-size: 72px;
+	line-height: 72px;
+	font-family: "微软雅黑";
+	font-weight: 100;
+	color: #FFFFFF;
+	text-align: center;
+}
+.main p{
+	margin-top: 80px;
+	font-size: 56px;
+	color: #5A5A5A;
+	text-align: center;
+	clear: both;
+
+}
+.wrapper{
+	margin-left:13%;
+}
+figure{
+	width: 240px;
+	height: 296px;
+	margin-top: 80px;
+	margin-left: 120px;
+	background-color: white;
+	float: left;
+}
+.cardImg img{
+	width: 72px;
+	height: 72px;
+	margin-left: 30%;
+	margin-top: 32px;
+	border:1px solid #E4E4E4;
+	border-radius: 50px;
+}
+.contain p{
+	font-size: 26px;
+	text-align: center;
+	color: #333333; /*主色*/
+	margin-top: 32px;
+}
+.contain span{
+	font-size: 14px;
+	color: #5A5A5A; /*副色*/
+	text-align: center;
+	margin-top: 16px;
+	display: block;
+}
+#cxy{
+	width: 96px;
+	height: 32px;
+	border:1px solid #5A5A5A;
+	background-color: #FFFFFF;
+	margin-top: 40px;
+	font-size: 16px;
+	margin-left: 30%;
+	color: #5A5A5A;
+}
+#cxy:hover {
+	color: #333333;
+	border: 2px solid #333333;
+}
+figure:hover {
+	box-shadow: #e4e4e4 0px 16px 24px;
+}
+.temp{
+	clear: both;
+	height: 120px;
+	width: 120px;
+	margin-top: 120px;
+}
+.footer{
+	background-color: #FFFFFF;
+	font-size: 16px;
+	line-height: 90px;
+	text-align: center;
+	height: 90px;
+	color: #5a5a5a;
+	clear: both;
+}
+.popimg{
+	width: 128px;
+	height: 128px;
+	padding-top: 32px;
+	margin: 0 auto;
+}
+.popcontain img{
+	margin: 32px 20px;
+}
+.popImg{
+	width: 128px;
+	height: 128px;
+	padding-top: 32px;
+	margin: 0 auto;
+}
+.contain img{
+	margin: 32px 100px;
+}
+.image:hover {
+	color:#333333;
+
+}
+#p{
+	padding-top: 80px;
+}

@@ -1,0 +1,64 @@
+.mainColor {
+	color: #333333;
+}
+.sideColor {
+	color: #5a5a5a;
+}
+.shadow {
+	color: #e4e4e4;
+}
+.bgc {
+	background-color: #fafafa;
+}
+.font-regular {
+	font-family: PingFangSC-Regular, sans-serif;
+}
+.font-light {
+	font-family: PingFangSC-Light, sans-serif;
+}
+.font-elight {
+	font-family: PingFangSC-Extrallight, sans-serif;
+}
+.font-ulight {
+	font-family: PingFangSC-Ultralight, sans-serif;
+}
+.csp{
+	display: none;
+}
+.section1 h3 {
+	text-align: center;
+	font-size: 36px;
+	margin-top: 40px;
+	margin-bottom: 32px;
+}
+.cardlong{
+	max-width:750px;
+	background-color: #FFFFFF;
+	line-height: 28px;
+	margin: 32px auto auto auto;
+	overflow: hidden;
+	width: 100%;
+	box-sizing: border-box;
+}
+.cardlong img{
+	width: 311px;
+	margin: 32px 32px;
+}
+.cardlong p {
+	color: #5a5a5a;
+	font-size: 16px;
+	letter-spacing: 0.8px;
+		margin-left: 32px;
+	margin-right: 32px;
+}
+.cardlong li{
+	margin-left: 32px;
+}
+.footer {
+	background-color: #FFFFFF;
+	font-size: 14px;
+	line-height: 90px;
+	text-align: center;
+	height: 90px;
+	color: #5a5a5a;
+}
